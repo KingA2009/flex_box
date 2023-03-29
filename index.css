@@ -1,0 +1,50 @@
+.flex{
+    width: 1500px;
+    height: 500px;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+
+.box{
+    width: 350px;
+    height: 550px;
+    margin-top: 40px;
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 10px;
+}
+
+.laptops{
+    border-radius: 10px;
+}
+
+img:hover{
+    color: red;
+    transition: .5s;
+    cursor: pointer;
+}
+
+button:hover{
+    color: blue;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.texts{
+    padding: 18px;
+}
+
+.text{
+    font-size: 14px;
+}
+
+.button_g{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.btn{
+    padding: 6px 20px;
+}
